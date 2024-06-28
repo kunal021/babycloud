@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen m-5 font-sans max-lg:flex max-lg:flex-col max-lg:bg-red-400 max-lg:rounded-[40px] max-lg:justify-center max-lg:items-center">
-      <div className="lg:absolute flex justify-center max-lg:my-auto items-center gap-10 h-full w-full bg-red-400 md:rounded-[75px]">
+    <div className="relative min-h-screen m-2.5 sm:m-5 font-sans max-lg:flex max-lg:flex-col max-lg:bg-red-400 max-lg:rounded-[40px] max-lg:justify-center max-lg:items-center">
+      <div className="lg:absolute flex justify-center max-lg:my-auto items-center gap-10 h-full w-full bg-red-400 rounded-[75px]">
         <div className="my-auto text-center lg:text-end lg:w-[25%] space-y-5">
           <p className="text-3xl font-black text-white">Witt.</p>
           <p className="text-7xl font-black text-white">Your second brain</p>
@@ -37,7 +37,7 @@ export default function Home() {
           className="flex justify-start items-center mx-7 my-5"
         />
       </div>
-      <div className="lg:absolute flex justify-center max-lg:my-auto items-center text-white lg:left-0 lg:m-10 lg:bottom-0 bg-black h-16 w-56 rounded-full z-20">
+      <div className="lg:absolute flex justify-center max-lg:my-auto items-center text-white lg:left-0 lg:m-10 lg:bottom-0 bg-black h-16 w-56 rounded-full z-20 cursor-pointer">
         Download For Free
       </div>
     </div>
